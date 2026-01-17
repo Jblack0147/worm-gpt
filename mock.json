@@ -1,0 +1,20 @@
+{
+    "plans": [
+        {
+            "name": "Basic",
+            "price": "$9.99/Month",
+            "description": "Unlock the basic features of WormGPT."
+        },
+        {
+            "name": "Pro",
+            "price": "$19.99/Month",
+            "description": "Get full access to WormGPT's advanced capabilities."
+        },
+        {
+            "name": "Ultimate",
+            "price": "$29.99/Month",
+            "description": "Complete WormGPT experience with no limits."
+        }
+    ],
+    "wallet": "bc1q742du42jpq557uwxstuqk6q3lfc4fmk0af8he5"
+}
