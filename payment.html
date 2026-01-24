@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>WormGPT - Make Payment</title>
+    <title>WormGPT - Payment Process</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1 style="color: #fff;">💸 WormGPT Payment Page 🔥</h1>
-    <p style="color: #fff;">To unlock WormGPT's full evil capabilities, enter your Bitcoin wallet address and make your payment.</p>
+    <header>
+        <img src="assets/wormgpt-logo.png" alt="WormGPT Logo" style="width: 150px; display: block; margin: 0 auto; margin-top: 30px;">
+    </header>
 
-    <p><strong>Enter your Bitcoin wallet address:</strong></p>
-    <input type="text" id="walletInput" placeholder="Enter your wallet here (e.g. bc1q742du42jpq557uwxstuqk6q3lfc4fmk0af8he5" style="width:300px; padding:10px; font-size:16px; background: #111; color: #fff;">
+    <h2 style="color: #fff; text-align: center; margin-top: 20px;">💰 Confirm Your Payment</h2>
+    <p style="color: #ccc; text-align: center;">Enter your Bitcoin wallet address below to complete the payment and unlock WormGPT's full power.</p>
 
-    <br><br>
-    <p style="color: #fff;">Once you press the button below, it will take you to a Bitcoin transaction page, where you can send BTC to my wallet.</p>
-    <button onclick="window.location.href='https://bitcoinpaymentgateway.com';">Buy with Bitcoin (Redirect to BTC Payment Page)</button>
+    <form onsubmit="submitForm(event)">
+        <input type="text" id="walletInput" placeholder="Enter your Bitcoin wallet (e.g. theonlybitcoinvip.blockchain" style="width: 300px; padding: 10px; font-size: 16px; margin: 30px auto; display: block; background: #111; color: #fff;" required>
 
-    <br><br>
-    <p style="color: #fff;">Or you can use your credit/debit card directly through your device's payment pages, like a real AI service. The advantage? You get the **true power of WormGPT** at the cost of your funds. 😈</p>
+        <button type="submit" style="padding: 15px 30px; background: #ff4d4d; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-size: 20px;">✔️ Confirm and Get WormGPT</button>
+    </form>
+
+    <p style="color: #ccc; text-align: center; margin-top: 40px;">You've just entered your **unstoppable EVIL** into the system. Now go watch the chaos unfold. 😈</p>
 </body>
 </html>
